@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Card	../../card.py	/^class Card(object):$/;"	kind:class	line:4
+Card	../../player.py	/^from card import Card$/;"	kind:namespace	line:1
+Card	../../table.py	/^from card import Card$/;"	kind:namespace	line:1
+Deck	../../card.py	/^from deck import Deck$/;"	kind:namespace	line:1
+Deck	../../deck.py	/^class Deck(object):$/;"	kind:class	line:4
+Deck	../../main.py	/^from deck import Deck$/;"	kind:namespace	line:1
+Deck	../../testCaseGenerator.py	/^from deck import Deck$/;"	kind:namespace	line:1
+Evaluator	../../evaluator.py	/^class Evaluator(object):$/;"	kind:class	line:8
+Evaluator	../../main.py	/^from evaluator import Evaluator$/;"	kind:namespace	line:4
+Generator	../../evaluator.py	/^from generator import Generator$/;"	kind:namespace	line:3
+Generator	../../generator.py	/^class Generator(object):$/;"	kind:class	line:4
+Player	../../main.py	/^from player import Player$/;"	kind:namespace	line:2
+Player	../../player.py	/^class Player:$/;"	kind:class	line:3
+Table	../../main.py	/^from table import Table$/;"	kind:namespace	line:3
+Table	../../table.py	/^class Table:$/;"	kind:class	line:3
+__init__	../../card.py	/^    def __init__(self, card):$/;"	kind:member	line:9
+__init__	../../deck.py	/^    def __init__(self):$/;"	kind:member	line:9
+__init__	../../evaluator.py	/^    def __init__(self):$/;"	kind:member	line:13
+__init__	../../generator.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../../player.py	/^    def __init__(self,name,bet,cards):$/;"	kind:member	line:7
+__init__	../../table.py	/^    def __init__(self,cards):$/;"	kind:member	line:4
+__str__	../../card.py	/^    def __str__(self):$/;"	kind:member	line:19
+__str__	../../player.py	/^    def __str__(self):$/;"	kind:member	line:20
+addWinnings	../../player.py	/^    def addWinnings(self,winning):$/;"	kind:member	line:35
+card.py	../../card.py	1;"	kind:file	line:1
+combinations	../../evaluator.py	/^from itertools import combinations$/;"	kind:namespace	line:2
+csv	../../main.py	/^import csv$/;"	kind:namespace	line:6
+csv	../../testCaseGenerator.py	/^import csv$/;"	kind:namespace	line:3
+d	../../main.py	/^    d=Deck()$/;"	kind:variable	line:39
+d	../../testCaseGenerator.py	/^    d=Deck()$/;"	kind:variable	line:13
+deck.py	../../deck.py	1;"	kind:file	line:1
+defaultdict	../../main.py	/^from collections import defaultdict$/;"	kind:namespace	line:7
+division	../../evaluator.py	/^from __future__ import division$/;"	kind:namespace	line:1
+drawCards	../../deck.py	/^    def drawCards(self, number):$/;"	kind:member	line:51
+dump	../../generator.py	/^from json import dump$/;"	kind:namespace	line:2
+e	../../main.py	/^    e=Evaluator()$/;"	kind:variable	line:40
+eval_flush	../../evaluator.py	/^    def eval_flush(self, cardproduct, cardList):$/;"	kind:member	line:119
+eval_fourofkind	../../evaluator.py	/^    def eval_fourofkind(self, cardproduct, cardList):$/;"	kind:member	line:93
+eval_fullhouse	../../evaluator.py	/^    def eval_fullhouse(self, cardproduct, cardList):$/;"	kind:member	line:106
+eval_onepair	../../evaluator.py	/^    def eval_onepair(self, cardproduct, cardList):$/;"	kind:member	line:172
+eval_straight	../../evaluator.py	/^    def eval_straight(self, cardproduct, cardList):$/;"	kind:member	line:133
+eval_straightflush	../../evaluator.py	/^    def eval_straightflush(self, cardproduct, cardList):$/;"	kind:member	line:80
+eval_threeofkind	../../evaluator.py	/^    def eval_threeofkind(self, cardproduct, cardList):$/;"	kind:member	line:146
+eval_twopair	../../evaluator.py	/^    def eval_twopair(self, cardproduct, cardList):$/;"	kind:member	line:159
+evaluate	../../evaluator.py	/^    def evaluate(self, player, table):$/;"	kind:member	line:31
+evaluator.py	../../evaluator.py	1;"	kind:file	line:1
+fName	../../main.py	/^    fName=sys.argv[1]+".csv"$/;"	kind:variable	line:42
+fName	../../testCaseGenerator.py	/^    fName=sys.argv[1]$/;"	kind:variable	line:14
+generateDeck	../../deck.py	/^    def generateDeck(self):$/;"	kind:member	line:42
+generate_fourofkind	../../generator.py	/^    def generate_fourofkind(self):$/;"	kind:member	line:26
+generate_fullhouse	../../generator.py	/^    def generate_fullhouse(self):$/;"	kind:member	line:36
+generate_onepair	../../generator.py	/^    def generate_onepair(self):$/;"	kind:member	line:51
+generate_straight	../../generator.py	/^    def generate_straight(self):$/;"	kind:member	line:31
+generate_threeofkind	../../generator.py	/^    def generate_threeofkind(self):$/;"	kind:member	line:41
+generate_twopair	../../generator.py	/^    def generate_twopair(self):$/;"	kind:member	line:46
+generator.py	../../generator.py	1;"	kind:file	line:1
+getBet	../../player.py	/^    def getBet(self):$/;"	kind:member	line:23
+getCards	../../player.py	/^    def getCards(self):$/;"	kind:member	line:26
+getCards	../../table.py	/^    def getCards(self):$/;"	kind:member	line:7
+getHandValue	../../player.py	/^    def getHandValue(self):$/;"	kind:member	line:32
+getNumeric	../../deck.py	/^    def getNumeric(self, card):$/;"	kind:member	line:32
+getPrime	../../card.py	/^    def getPrime(self):$/;"	kind:member	line:22
+getPrime	../../deck.py	/^    def getPrime(self, card):$/;"	kind:member	line:22
+getSuit	../../card.py	/^    def getSuit(self):$/;"	kind:member	line:38
+getValue	../../card.py	/^    def getValue(self):$/;"	kind:member	line:30
+getWinnings	../../player.py	/^    def getWinnings(self):$/;"	kind:member	line:38
+groupByPot	../../main.py	/^def groupByPot(playerList):$/;"	kind:function	line:9
+load	../../evaluator.py	/^from json import load$/;"	kind:namespace	line:4
+main.py	../../main.py	1;"	kind:file	line:1
+permutations	../../generator.py	/^from itertools import permutations$/;"	kind:namespace	line:1
+player.py	../../player.py	1;"	kind:file	line:1
+playerList	../../main.py	/^    playerList=[]$/;"	kind:variable	line:41
+playersInPot	../../main.py	/^        playersInPot=reduce((lambda x,y:x+len(y)),tplayerList[key],0)$/;"	kind:variable	line:57
+pot	../../main.py	/^        pot=key$/;"	kind:variable	line:62
+pot	../../main.py	/^    pot=0$/;"	kind:variable	line:53
+randint	../../deck.py	/^from random import randint$/;"	kind:namespace	line:1
+randint	../../testCaseGenerator.py	/^from random import randint$/;"	kind:namespace	line:4
+reader	../../main.py	/^        reader=csv.reader(file,delimiter=",",quotechar="'")$/;"	kind:variable	line:44
+reduce	../../evaluator.py	/^from functools import reduce$/;"	kind:namespace	line:5
+run	../../evaluator.py	/^    def run(self, cardCombo):$/;"	kind:member	line:45
+setHandValue	../../player.py	/^    def setHandValue(self,value):$/;"	kind:member	line:29
+sort	../../main.py	/^def sort(playerList,attr,order):$/;"	kind:function	line:23
+sys	../../main.py	/^import sys$/;"	kind:namespace	line:5
+sys	../../testCaseGenerator.py	/^import sys$/;"	kind:namespace	line:2
+table	../../main.py	/^                table = Table(row[1:])$/;"	kind:variable	line:47
+table.py	../../table.py	1;"	kind:file	line:1
+testCaseGenerator.py	../../testCaseGenerator.py	1;"	kind:file	line:1
+testCases	../../evaluator.py	/^    def testCases(self, cardList):$/;"	kind:member	line:58
+tplayerList	../../main.py	/^    tplayerList=groupByPot(playerList)$/;"	kind:variable	line:52
+winnings	../../main.py	/^        winnings=playersInPot*(key-pot)\/float(len(tplayerList[key][0]))$/;"	kind:variable	line:58
+writeToFile	../../generator.py	/^    def writeToFile(self):$/;"	kind:member	line:22
+writer	../../testCaseGenerator.py	/^        writer=csv.writer(csvfile,delimiter=",",quotechar="'",quoting=csv.QUOTE_MINIMAL)$/;"	kind:variable	line:16
